@@ -1,0 +1,12 @@
+# Cloudflare Domain Verification
+# ===============================
+
+domain: moekyawaung.com
+verification: YOUR_CLOUDFLARE_VERIFICATION_TOKEN
+owner: Moe Kyaw Aung
+email: moekyawaung@programmer.net
+
+# Cloudflare automatically verifies via DNS
+# TXT Record: _cf-custom-hostname.moekyawaung.com
+# Value: YOUR_CLOUDFLARE_TOKEN
+
