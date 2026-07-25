@@ -1,0 +1,208 @@
+# =============================================================
+# ROBOTS.TXT - Supreme Portfolio V3
+# Moe Kyaw Aung · Senior Android Developer
+# =============================================================
+
+# ---------------------
+# GENERAL RULES
+# ---------------------
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /assets/
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-index.xml
+
+# ---------------------
+# Google Search Engine
+# ---------------------
+User-agent: Googlebot
+Allow: /
+Allow: /*.html$
+Allow: /*.xml$
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 5
+
+# Google Image Search
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Disallow: /private/
+
+# Google Mobile Search
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Google Adsense
+User-agent: Mediapartners-Google
+Allow: /
+
+# ---------------------
+# Microsoft Bing
+# ---------------------
+User-agent: Bingbot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 5
+
+# ---------------------
+# DuckDuckGo
+# ---------------------
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------
+# Yahoo
+# ---------------------
+User-agent: Slurp
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------
+# Yandex (Russia)
+# ---------------------
+User-agent: YandexBot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+User-agent: YandexImages
+Allow: /
+Crawl-delay: 10
+
+# ---------------------
+# Baidu (China)
+# ---------------------
+User-agent: Baiduspider
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------
+# Social Media Crawlers
+# ---------------------
+
+# Twitter/X
+User-agent: Twitterbot
+Allow: /
+
+# Facebook/Meta
+User-agent: facebookexternalhit
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterestbot
+Allow: /
+
+# Slack
+User-agent: Slackbot
+Allow: /
+
+# Telegram
+User-agent: TelegramBot
+Allow: /
+
+# Discord
+User-agent: Discordbot
+Allow: /
+
+# ---------------------
+# Cloudflare
+# ---------------------
+User-agent: Cloudflare-AMP
+Allow: /
+
+# ---------------------
+# Archive & Analytics
+# ---------------------
+
+# Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+# Google Analytics
+User-agent: Google-Publisher-Plugin
+Allow: /
+
+# ---------------------
+# SEO Tools
+# ---------------------
+
+# Ahrefs
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 10
+
+# SEMrush
+User-agent: SEMrushBot
+Allow: /
+Crawl-delay: 10
+
+# Moz
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 10
+
+# Majestic
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 10
+
+# ---------------------
+# BLOCKED BOTS (Malicious)
+# ---------------------
+
+User-agent: MJ12bot
+Crawl-delay: 20
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SMTBot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 20
+
+User-agent: SEMrushBot
+Crawl-delay: 20
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: ExtLinksBot
+Disallow: /
+
+# ---------------------
+# SITEMAP LOCATIONS
+# ---------------------
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-index.xml
+
+# =============================================================
+# END OF ROBOTS.TXT
+# =============================================================
