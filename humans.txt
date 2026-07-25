@@ -1,0 +1,38 @@
+# ==========================================================
+# HUMANS.TXT - Credits & Thanks
+# Supreme Portfolio V3 Ultra Pro Max
+# ==========================================================
+
+## TEAM
+Developer: Moe Kyaw Aung
+Role: Senior Android Developer
+Location: Tachileik, Myanmar / Bangkok, Thailand
+Email: moekyawaung@programmer.net
+GitHub: https://github.com/Dev-moe-kyawaung/
+LinkedIn: https://www.linkedin.com/in/moe-kyaw-aung-2653093a1
+
+## TECHNOLOGIES
+HTML5, CSS3, JavaScript (ES6+)
+Bootstrap 5.3.3
+Font Awesome 6.5.2
+Google Fonts (Inter, JetBrains Mono, Noto Sans Myanmar)
+AOS (Animate On Scroll) 2.3.4
+Cloudinary (Image CDN)
+Cloudflare (DNS & CDN)
+
+## SPECIAL THANKS
+Programming Hub - 82+ Certifications
+Google Developers - Launchpad Program
+Open Source Community - Continuous Learning
+
+## SITE
+First published: January 2025
+Last updated: January 2025
+Language: English, Burmese
+Purpose: Professional Portfolio
+
+## CONTACT
+If you find this portfolio useful or have suggestions,
+please reach out to moekyawaung@programmer.net
+
+# ==========================================================
