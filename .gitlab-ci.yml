@@ -1,0 +1,30 @@
+# GitLab CI/CD Pipeline for GitLab Pages
+image: alpine:latest
+
+variables:
+  GIT_STRATEGY: clone
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - apk add --no-cache --update bash curl
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp index.html public/
+    - cp 404.html public/
+    - cp robots.txt public/
+    - cp sitemap.xml public/
+    - cp -r verification public/
+    - cp -r .well-known public/
+  artifacts:
+    paths:
+      - public
+    expire_in: never
+  only:
+    - main
+    - master
